@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&family=Golos+Text&family=Roboto+Slab&family=Teko&display=swap');
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Anton', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Golos Text', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Teko', sans-serif;
+}
+.content
+{
+    display: flex;
+}
+.main
+{
+    background-color: #4353FF;
+    width:30%;
+    border-radius: 0 0 30px 0;
+    padding: 5px 0px;
+}
+.sub-main
+{
+    display: flex;
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+    color:white;
+    font-size:26px;
+    padding-left:4px;
+}
+img{
+    width:40px;
+    height:40px;
+}
+.left
+{
+    width:50%;
+    background-color: #142D55;
+}
+.right
+{
+    width:50%;
+    background-color: #FFC942;
+}
