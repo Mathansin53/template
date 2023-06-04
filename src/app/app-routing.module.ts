@@ -8,10 +8,10 @@ import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
-  {path:'pages',component:PagesComponent},
-  {path:'about',component:AboutComponent},
-  {path:'services',component:ServicesComponent},
-  {path:'contact',component:ContactComponent}
+  {path:'pages',component:HomeComponent},
+  {path:'about',component:HomeComponent},
+  {path:'services',component:HomeComponent},
+  {path:'contact',component:HomeComponent}
 ];
 
 @NgModule({
